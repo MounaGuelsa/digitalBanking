@@ -16,7 +16,7 @@ import java.util.List;
 @DiscriminatorColumn(name= "Type",length= 4 ,discriminatorType = DiscriminatorType.STRING)
 public class BankAccount {
     @Id
-    private String id;
+    private String rip;
     private double balance;
     private Date createdAt;
     private AccountStatus status;
